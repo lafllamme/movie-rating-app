@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-[#111826];
+}
+
+.movie-item {
+    @apply w-96 h-auto bg-white rounded-md flex flex-col items-center justify-start  shadow-2xl mr-4;
+}
+
+.movie-img-wrapper {
+    @apply overflow-hidden w-full relative h-[520px];
+
+}
+
+.movie-img {
+    @apply object-center object-cover h-[600px];
+}
+
+.genre-tag {
+   @apply bg-[#6769f1] text-white py-0.5 px-1 mr-2 rounded-full;
+}
+
+.movie-star-icon {
+    @apply inline h-5 w-5 text-yellow-500;
+}
+.movie-rating-wrapper {
+    @apply w-full flex items-center justify-start h-8 shrink-0;
+}
